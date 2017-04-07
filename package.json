@@ -1,0 +1,15 @@
+{
+  "name": "www.suraj.space",
+  "version": "0.0.1",
+  "description": "The website, that would be a lighthouse 100 one day soon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Suraj C K",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
