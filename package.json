@@ -1,5 +1,6 @@
 {
   "name": "www.suraj.space",
+  "repository": "https://github.com/suraj2/surajspace.git",
   "version": "0.0.1",
   "description": "The website, that would be a lighthouse 100 one day soon",
   "main": "server.js",
@@ -10,6 +11,7 @@
   "author": "Suraj C K",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "gulp": "^3.9.1"
   }
 }
