@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require('body-parser');
-var git = require('simple-git')( workingDirPath );
+var git = require('simple-git')();
 
 var app = express();
 app.use(bodyParser.json());
