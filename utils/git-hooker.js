@@ -17,7 +17,7 @@ app.post("/git-hook", function (req, res) {
 		else console.log("Error in git pull: ", err);
 	}
 
-	git().pull('origin', 'master', pullCallback);
+	git.pull('origin', 'master', pullCallback);
 
 	res.status(200).send();
 })
